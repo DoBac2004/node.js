@@ -1,0 +1,29 @@
+<style>
+    dt{
+        font-weight: bold;
+        padding-top: 1em;
+    }
+</style>
+<h2>Greeting</h2>
+<dl>
+    <dt>Message:</dt>
+    <dd>
+        {{message}}
+        <br />(modify 04-views-with-content.js to change)
+    </dd>
+    <dd>Style:</dd>
+    <dd>
+        {{Style}}
+        <br />(edit URL to chang; for example,<a href="/greeting/?style=fancy">/greeting/style=fancy</a>)
+    </dd>
+    <dt>User ID (from cookie):</dt>
+    <dd>
+        {{userid}}
+        <br />(click <a href="set-random-userid">here</a> to change ramdomly)
+    </dd>
+    <dt>Username (from session):</dt>
+    <dd>
+        {{Username}}
+        <br />(click <a href="/set-random-username">here</a> to change ramdomly)
+    </dd>
+</dl>
